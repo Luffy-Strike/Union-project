@@ -1,0 +1,26 @@
+{
+  "name": "union-project",
+  "version": "1.0.0",
+  "description": "a website for the sale of furniture that will be easy to use for all users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luffy-Strike/Union-project.git"
+  },
+  "author": "Union",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luffy-Strike/Union-project/issues"
+  },
+  "homepage": "https://github.com/Luffy-Strike/Union-project#readme",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}

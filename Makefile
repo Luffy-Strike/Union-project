@@ -1,0 +1,11 @@
+install:
+	npm i
+
+ci:
+	npm ci
+
+lint:
+	npx eslint .
+
+fix:
+	npx eslint --fix .
