@@ -63,9 +63,10 @@ header {
     justify-content:center;
     width: 100%;
     height: 100vh;
-    background: url(../images/intero.jpg) center
+    background: url(https://i.pinimg.com/originals/6e/85/fb/6e85fb615f9d4b15f41dc36451c36b2b.jpg) center
     no-repeat;
     background-size: cover;
+    
 }
 
 .intro__inner {
