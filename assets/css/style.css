@@ -127,3 +127,82 @@ header {
     color: #333;
 }
 
+/* block2 */
+
+.block2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 div {
+    flex-wrap: wrap;
+    float: left;
+    width: calc(100% / 4);
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+.container2_armchair {
+    background: url("../images/armchair.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+.container2_furniture {
+    background: url("../images/furniture.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+.container2_furnituresale {
+    background: url("../images/furnituresale.jpg");
+    height: 49%;
+    background-size: cover;
+}
+
+.container2_sofacollection {
+    background: url("../images/sofacollection.jpg");
+    height: 49%;
+    background-size: cover;
+}
+
+.container2_savingmoney {
+    background: url("../images/savingmoney.jpg");
+    height: 49.55%;
+    background-size: cover;
+}
+
+.container2_naturalmaterials {
+    background: url("../images/naturalmaterials.jpg");
+    height: 49.55%;
+    background-size: cover;
+}
+
+.container_title {
+    font-size: 100px;
+}
+
+.btn2 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 25px;
+
+    border: 3px solid #fff;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .2s linear,
+    color .2s linear;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: #333;
+}
