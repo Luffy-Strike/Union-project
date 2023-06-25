@@ -130,88 +130,196 @@ header {
 }
 
 /* block2 */
-
-.block2 {
-    padding-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
+.block2{
+background-color: white;
+display: flex;
+flex-wrap: nowrap;
+width: 100%;
+height: 520px;
 }
-
-.container2 div {
-    flex-wrap: wrap;
-    float: left;
-    width: calc(100% / 4);
-    margin: 5px 0px 5px 0px;
-    text-align: center;
-    color: rgb(236, 233, 233);
-    text-shadow: 2px 2px 2px #000;
+.card{
+margin-left: 50px;
+margin-top: 10px;
+width: 450px;
+height: 510px;
+position: relative;
+perspective: 1000px;
 }
-
-
-.container2_armchair {
-    background: url("../images/armchair.jpg");
-    height: 100%;
-    background-size: cover;
+.front, .back{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+display: flex;
+justify-content: left;
+transition: 1s;
+backface-visibility: hidden;
 }
-
-.container2_furniture {
-    background: url("../images/furniture.jpg");
-    height: 100%;
-    background-size: cover;
+.back{
+background-color: white;
+transform: rotateY(180deg);
 }
-
-.container2_furnituresale {
-    background: url("../images/furnituresale.jpg");
-    height: 49%;
-    background-size: cover;
+.card:hover .front{transform: rotateY(180deg);}
+.card:hover .back{transform: rotateY(0deg);}
+.front{
+position: relative;
 }
-
-.container2_sofacollection {
-    background: url("../images/sofacollection.jpg");
-    height: 49%;
-    background-size: cover;
+.front img { 
+width: 100%; 
+height: auto; }
+.front h1 { 
+position: absolute; 
+top: 5%; 
+left: 35%;
+transform: translate(-50%, -50%);
+z-index: 1;
+color: rgb(146, 119, 119);
 }
-
-.container2_savingmoney {
-    background: url("../images/savingmoney.jpg");
-    height: 49.55%;
-    background-size: cover;
+.back p{
+font-size: medium;
+font-weight: bold;
 }
-
-.container2_naturalmaterials {
-    background: url("../images/naturalmaterials.jpg");
-    height: 49.55%;
-    background-size: cover;
+.go-to-catalog{
+background-color: #000000;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+font-size: 16px;
 }
-
-.container_title {
-    font-size: 100px;
+.go-to-catalog:hover {
+background-color: #292929;
 }
-
-.btn2 {
-    display: inline-block;
-    vertical-align: top;
-    padding: 7px 25px;
-
-    border: 3px solid #fff;
-
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-
-    transition: background .2s linear,
-    color .2s linear;
+.card2{
+margin-top: 10px;
+width: 350px;
+height: 250px;
+position: relative;
+perspective: 1000px;
 }
-
-.btn2:hover {
-    background-color: #fff;
-    color: #333;
+.front, .back{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+display: flex;
+justify-content: left;
+transition: 1s;
+backface-visibility: hidden;
+}
+.back{
+background-color: white;
+transform: rotateY(180deg);
+}
+.card2:hover .front{transform: rotateY(180deg);}
+.card2:hover .back{transform: rotateY(0deg);}
+.front{
+position: relative;
+}
+.front img { 
+width: 100%; 
+ height: auto; 
+}
+.front .h1-2 { 
+position: absolute; 
+top: 10%; 
+left: 35%;
+transform: translate(-50%, -50%);
+z-index: 1;
+color: #3a3737;
+}
+.back p{
+font-size: medium;
+font-weight: bold;
+}
+.go-to-catalog{
+background-color: #000000;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+font-size: 16px;
+}
+.go-to-catalog:hover {
+background-color: #292929;
+}
+.card3{
+margin-top: 10px;
+width: 350px;
+height: 250px;
+position: relative;
+perspective: 1000px;
+}
+.card3:hover .front{transform: rotateY(180deg);}
+.card3:hover .back{transform: rotateY(0deg);}
+.front .h1-3 { 
+position: absolute; 
+top: 10%; 
+left: 35%;
+transform: translate(-50%, -50%);
+z-index: 1;
+color: rgb(255, 255, 255);
+}
+.card4{
+margin-top: 10px;
+width: 450px;
+height: 250px;
+position: relative;
+perspective: 1000px;
+}
+.front .h1-4 { 
+position: absolute; 
+top: 10%; 
+left: 35%;
+transform: translate(-50%, -50%);
+z-index: 1;
+color: #813c3cd3;
+}
+.card4:hover .front{transform: rotateY(180deg);}
+.card4:hover .back{transform: rotateY(0deg);}
+.card5:hover .front{transform: rotateY(180deg);}
+.card5:hover .back{transform: rotateY(0deg);}
+.card5{
+margin-right: 15px;
+margin-top: 10px;
+width: 450px;
+height: 250px;
+position: relative;
+perspective: 1000px;
+}
+.card6{
+margin-left: 20px;
+margin-top: 10px;
+width: 450px;
+height: 510px;
+position: relative;
+perspective: 1000px;
+}
+.card6:hover .front{transform: rotateY(180deg);}
+.card6:hover .back{transform: rotateY(0deg);}
+.column-3 {
+margin-left: 15px;
+display: table;
+margin-left: 10px;
+}
+.column-2{
+margin-right: 20px;
+margin-left: 20px;
+}
+.front .h1-6{
+top: 10%;
+color: #3a3737;
+}
+.front .h1-5{
+color: #813c3cd3;
 }
 /* Block 3 */
 .action {
+padding-top: 10px;
 background-color: #fff;
 text-align: center;
 margin-top: 0;
