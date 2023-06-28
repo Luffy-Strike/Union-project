@@ -66,19 +66,20 @@ header {
     margin-top: 10px; 
     margin-left: 20px; 
     margin-right: 20px; 
-    background-color: #dadada; 
+    background-color: #e7e4d1;
     height: 900px; 
 } 
 .main-bloc1 { 
     padding-top: 200px; 
     text-align: center; 
     font: small-caps bold 24px/1 sans-serif; 
+    font-size: 300%;
 } 
 .main-bloc1-1 { 
     margin-top: 90px; 
     text-align: center; 
     font: small-caps 24px/1 sans-serif; 
-    font-size: 250%; 
+    font-size: 270%; 
 } 
 .cont-image1 { 
     padding-top: 10px;
@@ -92,21 +93,60 @@ header {
 .wait { 
     padding-top: 20px;
     background-color:  #b3b3b3; 
-    height: 1500px; 
+    height: 2050px; 
 } 
 .conteiner2 { 
-    padding-top: 500px; 
+    padding-top: 20px;
     margin-left: 20px; 
     margin-right: 20px; 
-    background-color: #dadada; 
-    height: 1400px; 
+    background-color: #e7e4d1; 
+    height: 2000px; 
 } 
  
  
+ .wait-image1 {
+    margin-left: 20px;
+ }
+ .wait-image2 {
+    margin-right: 20px;
+ }
+ .wait-image3 {
+    padding-top: 935px;
+    margin-left: 20px;
+ }
+ .wait-image4 {
+    margin-right: 20px;
+   
+ }
  
- 
- 
- 
+ .text1 {
+    padding-top: 200px;
+    font-size: 200%;
+ }
+ .text2 {
+    font-size: 200%;
+
+ }
+.text3 {
+    padding-top: 200px;
+    font-size: 200%;
+}
+.text4 {
+    padding-top: 500px;
+    font-size: 200%;
+}
+
+.wait-text {
+
+}
+.text5 {
+
+}
+
+.text6 {
+    
+}
+
  
 /*конец*/ 
  
@@ -115,7 +155,8 @@ footer{
     padding-bottom:50px; 
     background-color: #b3b3b3; 
     height: 400px; 
-    padding: 20px; 
+    padding: 40px; 
+    margin-top: 10px;
     } 
     .logo{ 
     display: block; 
