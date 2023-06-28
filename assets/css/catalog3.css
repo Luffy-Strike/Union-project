@@ -1,0 +1,222 @@
+body { 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: fff; 
+    font-size: 15px; 
+    line-height: 1.6; 
+} 
+ 
+/* header */ 
+ 
+.header__inner{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+} 
+header { 
+    padding-top: 5px; 
+    width: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
+    background-color: aliceblue; 
+} 
+.header__logo{ 
+    font-size: 30px; 
+    font-weight: 700; 
+    background-image: linear-gradient(90deg, #8b00ff, #fda5b3); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: 0; 
+} 
+/* Navigation */ 
+.nav{ 
+    font-size: 15px; 
+} 
+.nav__link { 
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 5px 20px; 
+   color: black; 
+   text-decoration: none; 
+   transition: color .2 linear; 
+} 
+/* Icons */ 
+.social{ 
+    padding-top: 5px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    display: inline-block; 
+    text-decoration: none; 
+} 
+ 
+ 
+.main { 
+    background-color: #b3b3b3; 
+    height: 500px; 
+} 
+.main-title { 
+    padding-top: 45px; 
+    font: small-caps bold 24px/1 sans-serif; 
+    text-align: center; 
+} 
+.conteiner1 { 
+    margin-top: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    background-color: #dadada; 
+    height: 400px; 
+} 
+.main-bloc1 { 
+    padding-top: 60px; 
+    text-align: center; 
+    font: small-caps bold 24px/1 sans-serif; 
+} 
+.main-bloc1-1 { 
+    margin-top: 90px; 
+    text-align: center; 
+    font: small-caps 24px/1 sans-serif; 
+    font-size: 250%; 
+} 
+.cont-image1 { 
+    padding-left: 10px; 
+} 
+.cont-image2 { 
+    padding-right: 10px; 
+} 
+ 
+.wait { 
+    background-color:  #b3b3b3; 
+    height: 1500px; 
+} 
+.conteiner2 { 
+    padding-top: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    background-color: #dadada; 
+    height: 1400px; 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/*конец*/ 
+ 
+footer{ 
+    position:relative; 
+    padding-bottom:50px; 
+    background-color: #b3b3b3; 
+    height: 400px; 
+    padding: 20px; 
+    } 
+    .logo{ 
+    display: block; 
+    margin-left: 100px; 
+    font-size: 30px; 
+    font-weight: 800; 
+    text-align: left; 
+    } 
+    .logo-main { 
+    color: #000; 
+    } 
+    .logo-sub { 
+    color: #000000; 
+    font-size: 25px; 
+    font-weight: 500; 
+    } 
+    .first-step{ 
+    float: left; 
+    width: 30%; 
+    padding: 20px; 
+    margin-top: 20px; 
+    } 
+    .btn-logo { 
+    background-color: #705a3d; 
+    color: #fffbfb; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    padding-right: 150px; 
+    text-align: center; 
+    } 
+       
+    .btn-logo:hover { 
+    background-color: #8a6638; 
+    } 
+    .email-agree{ 
+    font-weight: 100; 
+    font-size: small; 
+    margin-top: 0; 
+    } 
+    .confidenc{ 
+    margin-right: 140px; 
+    } 
+    .text-magaz{ 
+    margin-left: 140px; 
+    } 
+    .join-h1{ 
+    margin-top: 50px; 
+    margin-left: 40px; 
+    font-size: 20px; 
+    font-weight: bolder; 
+    } 
+    .fa-brands{ 
+    margin-left: 30px; 
+    } 
+    .social-follow{ 
+    color: #000; 
+    } 
+    .contacts{ 
+    text-align: center; 
+    margin-top: 20px; 
+    justify-content: center; 
+    width: 33%; 
+    float: left; 
+    } 
+    .contacts-h1{ 
+    margin-bottom: 0; 
+    } 
+    .contacts-p-1{ 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    } 
+    .number{ 
+    margin-top: 0; 
+    font-size: large; 
+    font-weight: bold; 
+    margin-bottom: 0; 
+    } 
+    .dostawa{ 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    } 
+    .pochta{ 
+    margin-top: 0; 
+    font-size: large; 
+    font-weight: bold; 
+    } 
+    .payment-system{ 
+    text-align: center; 
+    margin-top: 20px; 
+    justify-content: center; 
+    width: 33%; 
+    float: left; 
+    } 
+    .fa-brands{ 
+    size: 20px; 
+    } 
+    .ooo-union{ 
+    position: absolute; 
+    bottom: 0; 
+    text-align: center; 
+    margin-left: 33%; 
+    margin-top: 100px; 
+    margin-bottom: 0;
