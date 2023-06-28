@@ -55,7 +55,7 @@ header {
  
 .main { 
     background-color: #b3b3b3; 
-    height: 500px; 
+    height: 900px; 
 } 
 .main-title { 
     padding-top: 45px; 
@@ -67,10 +67,10 @@ header {
     margin-left: 20px; 
     margin-right: 20px; 
     background-color: #dadada; 
-    height: 400px; 
+    height: 900px; 
 } 
 .main-bloc1 { 
-    padding-top: 60px; 
+    padding-top: 200px; 
     text-align: center; 
     font: small-caps bold 24px/1 sans-serif; 
 } 
@@ -81,18 +81,21 @@ header {
     font-size: 250%; 
 } 
 .cont-image1 { 
+    padding-top: 10px;
     padding-left: 10px; 
 } 
 .cont-image2 { 
+    padding-top: 10px;
     padding-right: 10px; 
 } 
  
 .wait { 
+    padding-top: 20px;
     background-color:  #b3b3b3; 
     height: 1500px; 
 } 
 .conteiner2 { 
-    padding-top: 10px; 
+    padding-top: 500px; 
     margin-left: 20px; 
     margin-right: 20px; 
     background-color: #dadada; 
