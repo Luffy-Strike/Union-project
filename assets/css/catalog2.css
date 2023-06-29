@@ -1,0 +1,292 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #808080;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* header */
+
+.header__inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header {
+    padding-top: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: aliceblue;
+}
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    background-image: linear-gradient(90deg, #8b00ff, #fda5b3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: 0;
+}
+/* Navigation */
+.nav{
+    font-size: 15px;
+}
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 20px;
+   color: black;
+   text-decoration: none;
+   transition: color .2 linear;
+}
+/* Icons */
+.social{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+main {
+    margin: 0;
+    padding: 50px;
+    font-family: sans-serif;
+    margin-left: 15px;
+    padding-top: 75px;
+  }
+  
+  .cards {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 14px;
+     
+
+  }
+  
+  .cards__item:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+  }
+  
+  .card__image {
+    height: 250px;
+  }
+  
+  .card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 5px 0 0
+  }
+  
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px ;
+    padding-bottom: 0px ;
+    
+    flex-grow: 1;
+  }
+  
+  .card__title {
+    margin: 0;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .card__descr {
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  
+  .price{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-color:#383737d5;
+    color:#fff;
+    position: relative;
+    white-space: nowrap;
+    padding:2px 120px 1px 120px;
+    border-radius: 5px 5px 0 0;
+    
+  }
+  
+  .card__btn {
+    
+    border: 0;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    padding: 12px 17px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+    
+    
+  }
+  
+  .cards__item .card {
+    height: 100%;
+  }
+
+  .card_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 305px);
+    width: 100%;
+    max-width: 1500px; 
+    justify-content: center;
+    justify-items: center; 
+    column-gap: 250px; 
+    row-gap: 20px;
+    margin: 0 auto;
+  }
+
+  .card_knopka{
+    color:#fff;
+    text-decoration: none;
+    padding: 8px 150px;
+  }
+
+  /*Footer*/
+footer{
+    position:relative;
+    padding-bottom:50px;
+    background-color: #b3b3b3;
+    height: 400px;
+    padding: 20px;
+    }
+    .logo{
+    display: block;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    }
+    .logo-main {
+    color: #000;
+    }
+    .logo-sub {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+    }
+    .first-step{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+    }
+    .btn-logo {
+    background-color: #705a3d;
+    color: #fffbfb;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-right: 150px;
+    text-align: center;
+    }
+      
+    .btn-logo:hover {
+    background-color: #8a6638;
+    }
+
+    .email-agree{
+        font-weight: 100;
+        font-size: small;
+        margin-top: 0;
+        }
+        .confidenc{
+        margin-right: 140px;
+        }
+        .text-magaz{
+        margin-left: 140px;
+        }
+        .join-h1{
+        margin-top: 50px;
+        margin-left: 40px;
+        font-size: 20px;
+        font-weight: bolder;
+        }
+        .fa-brands{
+        margin-left: 30px;
+        }
+        .social-follow{
+        color: #000;
+        }
+        .contacts{
+        text-align: center;
+        margin-top: 20px;
+        justify-content: center;
+        width: 33%;
+        float: left;
+        }
+        .contacts-h1{
+        margin-bottom: 0;
+        }
+        .contacts-p-1{
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+        .number{
+        margin-top: 0;
+        font-size: large;
+        font-weight: bold;
+        margin-bottom: 0;
+        }
+        .dostawa{
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+        .pochta{
+        margin-top: 0;
+        font-size: large;
+        font-weight: bold;
+        }
+        .payment-system{
+        text-align: center;
+        margin-top: 20px;
+        justify-content: center;
+        width: 33%;
+        float: left;
+        }
+        .fa-brands{
+        size: 20px;
+        }
+        .ooo-union{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        margin-left: 33%;
+        margin-top: 100px;
+        margin-bottom: 0;
+        font-weight: bolder;
+        }
