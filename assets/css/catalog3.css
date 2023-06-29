@@ -185,22 +185,7 @@ header {
     
   }
   
-  .card__btn {
-    
-    border: 0;
-    border-radius: 5px;
-    background: #000;
-    color: #fff;
-    padding: 12px 17px;
-    font-size: 16px;
-    cursor: pointer;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    white-space: nowrap;
-    
-    
-  }
+  
   
   .cards__item .card {
     height: 100%;
